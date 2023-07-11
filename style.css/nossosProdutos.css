@@ -1,0 +1,118 @@
+#nossosProdutos{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    align-content: center;
+    justify-content: center;
+    width: 100%;
+    text-align: center;
+    font-size: 30px;
+}
+#nossosProdutos1{
+    display: flex;
+    flex-direction: row;
+    max-width: 90%;
+    overflow-x: hidden;
+    transition: 1;
+}
+.np{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    width: 100%;
+    min-width: 100%;
+    max-width: 100%;
+    transition: 1s;
+}
+
+#produtos{
+    display: flex;
+    flex-direction: column;
+    min-width: 23%;
+    align-items: center;
+    align-content: center;
+    justify-content: center;
+    text-align: center;
+    border: 1px solid #34230A;
+    border-radius: 25px;
+    padding: 2%;
+    background-color: #34230A;
+    color: #F5DBBB;
+    margin-left: 5px;
+    margin-right: 5px;
+    transition: 1s;
+}
+
+#imgProduto{
+    max-width: 90%;
+    min-height: 250px;
+    background-color: white;
+    align-items: center;
+    border-radius: 50%;
+}
+
+#descriptionProduto,#priceProduto{
+    font-size: 25px;
+}
+
+#buyProduto{
+    font-size: 30px;
+    border: 1px solid #F5DBBB;
+    border-radius: 50px;
+}
+#buyProduto:hover{
+    cursor: pointer;
+    transition: 1s;
+    color: #34230A;
+    background-color: #F5DBBB;
+}
+
+#button{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    margin: 4px;
+    background-color: #F5DBBB;
+}
+
+#buttonContent{
+    width: 10%;
+    background-color: #34230A;
+    margin-left: 4px;
+    margin-right: 4px;
+    color: #F5DBBB;
+    border-radius: 40px;
+    font-size: 25px;
+}   
+
+#buttonContent:hover{
+    cursor: pointer;
+    background-color: #F5DBBB;
+    border: 1px solid #34230A;
+    color: #34230A;
+    transition: 1s;
+}
+
+.btn{
+    background-color: #34230A;
+    border-radius: 30px;
+    border: 1px solid #34230A;
+    max-width: 20%;
+    margin-right: 4px;
+    margin-left: 4px;
+    color: #F5DBBB;
+}
+.btn:hover{
+    color: #34230A;
+    background-color: #F5DBBB;
+    transition: 1s;
+}
+
+#rd1:checked ~ .np{
+    transform: translateX(0%);
+}
+
+#rd2:checked ~ .np{
+    transform: translateX(-100%);
+}
+

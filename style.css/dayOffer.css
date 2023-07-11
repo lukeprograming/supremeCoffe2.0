@@ -1,0 +1,38 @@
+#dayOffer{
+    display: flex;
+    flex-direction: row;
+    max-height: 100%; 
+    align-items: center;
+    align-content: center;
+    transition: 1;  
+}
+
+#dayOfferImg{
+    align-items: center;
+    max-width: 50%;
+    transition: 1s;
+}   
+
+#dayOfferDescription{
+    font-family: Arial, Helvetica, sans-serif;
+    max-width: 40%;
+    width: 45%;
+    text-align: justify;
+    transition: 1s;
+}
+
+#h2{
+    font-size: 55px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+#p{
+    font-size: 25px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    transition: 2s;
+}
+
+#dayOffer:hover #dayOfferImg{
+    min-width: 51%;
+    transition: 1s;
+}

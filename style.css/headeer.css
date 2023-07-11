@@ -1,0 +1,49 @@
+#logo{
+    max-width: 200px;
+    max-height: 200px;
+}
+
+#headerMainContent{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    width: 100%;
+    box-shadow: 0px 1px #F5DBBB;
+    padding-left: 5px;
+    padding-right: 5px;
+}
+#navMenu{
+    max-width: 50%;
+}
+#button{
+    border-bottom-style: none;
+    border-bottom-color: transparent;
+    background-color: #34230A;
+    font-size: 20px;
+}
+#menu{
+    display: flex;
+    flex-direction: row;
+    list-style: none;
+    justify-content: right;
+    align-items: center;
+    align-content: center;
+    padding-top: 20px;
+    text-align: center;
+    font-size: 20px;
+}
+
+#contetntMenu{
+    margin: 1px;
+    max-width: 23%;
+    border-radius: 30px ;   
+    list-style: none;  
+    color: #F5DBBB;
+    text-decoration: none;
+}
+#contetntMenu:hover{
+    background-color: #F5DBBB;
+    color: #34230A;
+    transition: 1.5s;
+    cursor: pointer;
+}

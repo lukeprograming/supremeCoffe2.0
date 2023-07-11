@@ -1,0 +1,86 @@
+#contatenos{
+    display: flex;
+    flex-direction: column;
+    padding: 5%;
+    width: 100%;
+    background-color: #34230A;
+}
+
+#contactTittle{
+    padding-left: 5%;
+    background-color: #34230A;
+    color: #F5DBBB;
+}
+
+#contactMain{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding-top: 2%;
+}
+
+#contactInfo{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    max-width: 95%;
+    align-items: center;
+    align-content: center;
+}
+
+#info{
+    max-width: 30%;
+    color: #F5DBBB ;
+    padding-top: 5px;
+    padding-bottom: 5px;
+}
+
+#font001{
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+#ipt{
+    background-color: #F5DBBB;
+    border-color: #34230A;
+    border: 1px solid #34230A;
+    color: #34230A;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    padding: 2%;
+}
+
+#msg{
+    background-color: #F5DBBB;
+    border: 1px solid #34230A;
+    width: 90%;
+    height: 200px;
+}
+
+#contactSubmit{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: right;
+}
+#co{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;    
+    align-items: center;
+    align-content: center;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+#coh1{
+    margin-left: 10%;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    padding-top: 2.5%;
+    padding-bottom: 1%;
+    color: #F5DBBB;
+}
+
+#msg{
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    padding: 1%;
+    border: 1px solid #F5DBBB;
+}
